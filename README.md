@@ -14,7 +14,13 @@
 
 - `==` vs `===` -> type coercion
 - loop
+
+## Class 3
+
 - query selector
 - callback / promise / async & await
+
+## Class 4
+
 - How to trace code
 - Editor Setup
