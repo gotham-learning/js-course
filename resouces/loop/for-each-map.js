@@ -5,8 +5,6 @@ const arr = ['john', 'cena', 'dwayne']
 //   arr[count] = arr[count].toUpperCase() //?
 // }
 
-// arr
-
 // Declarative
 // const newArr = []
 // arr.forEach(function(item) {
