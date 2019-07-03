@@ -20,10 +20,10 @@ const totalRatingsOf = (games: Game[]): number => 0
 const averageRatingsOf = (games: Game[]): number => 0
 
 // 5. get total rating by names from list of game
-const totalRatingsByNames = (names: string[], games: Game[]): number => 0
+const ratingByName = (names: string, games: Game[]): number => 0
 
 // 6. get total rating by names from list of game
-const averageRatingsByNames = (names: string[], games: Game[]): number => 0
+const averageRatingsByName = (names: string, games: Game[]): number => 0
 
 // 7. increase rating for all games
 const increaseRatingBy = (inc: number, games: Game[]): Game[] => []
