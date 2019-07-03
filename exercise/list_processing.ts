@@ -1,5 +1,11 @@
 type Game = { name: string, rating: number }
 
+const gameList: Game[] = [
+  { name: 'call of duty', rating: 4.0 },
+  { name: 'assasin creed', rating: 6.4 },
+  { name: 'mario', rating: 10.2 },
+]
+
 // 1. returns list of name from list of game
 const names = (games: Game[]): string[] => []
 
