@@ -36,6 +36,27 @@ const monsters = [
 const validateName = validator([required, maxLength(20)]) // → validateName('Rocky Balboa')
 
 
+/* Closure */
+const fibo = x => x <= 1 ? x : fibo(x - 1) + fibo(x - 2)
+
+const time = f => {
+  const start = performance.now()
+  f()
+  const end = performance.now()
+  return `${(end - start).toFixed(2)} ms`
+}
+
+time(() => fibo(30)) //?
+time(() => fibo(31)) //?
+
+const makeFibo = () => {
+  const cache = {}
+  function fibo(x) {
+    return x <= 1 ? x : fibo(x - 1) + fibo(x - 2)
+  }
+  return fibo
+}
+
 
 
 /* Recursion */
