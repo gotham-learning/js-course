@@ -57,6 +57,32 @@ const makeFibo = () => {
   return fibo
 }
 
+/* Class vs Closure */
+class Dragon {
+  constructor(element) {
+    this.element = element
+  }
+  setElement (newElement) {
+    this.element = newElement
+  }
+  split() {
+    return this.element
+  }
+}
+
+const makeDragon = (inputElement) => {
+  let element = inputElement
+
+  return {
+    setElement(newElement) {
+      element = newElement
+    },
+    split() {
+      return element
+    }
+  }
+}
+
 
 
 /* Recursion */
