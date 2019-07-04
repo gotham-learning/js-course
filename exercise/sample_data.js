@@ -27,6 +27,10 @@ const monsters = [
   },
 ]
 
+// 1. Sum of exp from monsters
+// 2. Sum of exp from monsters when promotion, exp * 2
+// 3. Sum of exp from monsters when TrueCash, exp * 10
+// 4. Sum of exp from monsters when promotio & true cash at the same time, (exp * 2) * 10
 
 // → Part 2
 const validateName = validator([required, maxLength(20)]) // → validateName('Rocky Balboa')
