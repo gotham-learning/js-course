@@ -1,0 +1,17 @@
+{
+  "name": "js-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hamcompe/js-course.git",
+  "author": "Pallop Chaoputhipuchong <pallop.chao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
